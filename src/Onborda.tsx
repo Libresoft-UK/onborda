@@ -1,13 +1,13 @@
 "use client";
 import React, {useEffect, useMemo, useRef, useState} from "react";
-import {useOnborda} from "./OnbordaContext";
+import {useOnborda} from "./OnbordaContext.js";
 import {motion} from "framer-motion";
-import {usePathname, useRouter} from "next/navigation";
+import {usePathname, useRouter} from "next/navigation.js";
 import {Portal} from "@radix-ui/react-portal";
 
 // Types
-import {OnbordaProps, Step} from "./types";
-import {getCardStyle, getArrowStyle} from "./OnbordaStyles";
+import {OnbordaProps, Step} from "./types/index.js";
+import {getCardStyle, getArrowStyle} from "./OnbordaStyles.js";
 
 /**
  * Onborda Component

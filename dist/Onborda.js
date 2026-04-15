@@ -1,11 +1,11 @@
 "use client";
 import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useOnborda } from "./OnbordaContext";
+import { useOnborda } from "./OnbordaContext.js";
 import { motion } from "framer-motion";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation.js";
 import { Portal } from "@radix-ui/react-portal";
-import { getCardStyle, getArrowStyle } from "./OnbordaStyles";
+import { getCardStyle, getArrowStyle } from "./OnbordaStyles.js";
 /**
  * Onborda Component
  * @param {OnbordaProps} props

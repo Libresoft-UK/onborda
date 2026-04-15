@@ -135,7 +135,7 @@ export interface CardComponentProps {
     /** Function to set the tour visibility */
     setOnbordaVisible: (visible: boolean) => void;
     /** The arrow element to be displayed in the card */
-    arrow: JSX.Element;
+    arrow: React.ReactNode;
     /** Array of completed steps */
     completedSteps: (string | number)[];
     /** Is waiting for Route change */

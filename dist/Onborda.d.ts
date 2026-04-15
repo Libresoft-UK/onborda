@@ -1,5 +1,5 @@
 import React from "react";
-import { OnbordaProps } from "./types";
+import { OnbordaProps } from "./types/index.js";
 /**
  * Onborda Component
  * @param {OnbordaProps} props
